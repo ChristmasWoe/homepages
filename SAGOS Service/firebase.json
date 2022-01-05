@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site":"sagos-service",
+    "public": "./",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

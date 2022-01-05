@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site":"ikp-plus",
+    "public": "./",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
