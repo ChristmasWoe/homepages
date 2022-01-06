@@ -1,5 +1,17 @@
+html{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
 body {
   margin: 0;
+  height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 .container {
@@ -30,6 +42,7 @@ h1 {
 }
 
 .main {
+  height: 100%;
   /* background-color: #gray; */
   background: #d2ebf7;
   align-items: center;
@@ -56,9 +69,8 @@ h1 {
 
 .specialization-description {
   margin-top: 50px;
-  padding-top: 30px;
-  min-width: 454px;
-  padding-left: 3%;
+  padding: 20px 30px;  
+  min-width: 735px;
   height: 133px;
   background: linear-gradient(
     111.68deg,
